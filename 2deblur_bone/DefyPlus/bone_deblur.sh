@@ -1,5 +1,5 @@
 # Universal DeBlur-DeBloat Script v1.0.3 by Lokifish Marz
-# Mod "Bone Deblur" by UncleDan v0.1
+# Mod "Bone Deblur" by UncleDan v0.2
 #!/system/bin/sh
 #mount -o remount,rw /dev/block/mmcblk0p12 /system
 busybox mount -o remount,rw /system
@@ -76,6 +76,8 @@ cd /system/app
  mv CarDock.odex CarDock.odex.bak
  mv ClockWidget.apk ClockWidget.apk.bak
  mv ClockWidget.odex ClockWidget.odex.bak
+ mv Conversations.apk Conversations.apk.bak
+ mv Conversations.odex Conversations.odex.bak
  mv CMP.apk CMP.apk.bak
  mv DataCollection.apk DataCollection.apk.bak
  mv DataCollection.odex DataCollection.odex.bak
