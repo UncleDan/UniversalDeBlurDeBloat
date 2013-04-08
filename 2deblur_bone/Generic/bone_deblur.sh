@@ -8,10 +8,10 @@ busybox mount -o remount,rw /system
  
 #Toggles and Tweaks
  # mv /system/app/SystemUI.apk /system/app/SystemUI.apk.bak
- # cp -f mnt/sdcard/2deblur_bone/DefyPlus/SystemUI.apk /system/app/SystemUI.apk
+ # cp -f mnt/sdcard/2deblur_bone/Generic/SystemUI.apk /system/app/SystemUI.apk
  # mv /system/app/SystemUI.odex /system/app/SystemUI.odex.bak
- mv /system/build.prop /system/build.prop.bak
- cp -f mnt/sdcard/2deblur_bone/DefyPlus/build.prop /system/build.prop
+ # mv /system/build.prop /system/build.prop.bak
+ # cp -f mnt/sdcard/2deblur_bone/Generic/build.prop /system/build.prop
 
 #Blur Common
 cd /system/app
